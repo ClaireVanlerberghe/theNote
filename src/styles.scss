@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #f4f2f3;
+    .element1{
+        position: absolute;
+        width: 400px;
+    }
+    .element2{
+        width: 350px;
+        position: absolute;
+        right: 400px;
+        top: 465px;
+    }
+    .element3{
+        position: absolute;
+        width: 400px;
+        right: 0px;
+    }
+    .element4{
+        position: absolute;
+        width: 400px;
+        top: 860px;
+
+    }
+    .element5{
+        position: absolute;
+        width: 400px;
+        top:  1000px;
+        right: 0px;
+    }
+}

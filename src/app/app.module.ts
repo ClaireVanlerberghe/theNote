@@ -10,6 +10,9 @@ import { UserComponent } from './user/user.component';
 import { NoteComponent } from './note/note.component';
 import { CreatedNoteComponent } from './created-note/created-note.component';
 import { UpdateNoteComponent } from './update-note/update-note.component';
+import { Error404Component } from './error404/error404.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { UpdateNoteComponent } from './update-note/update-note.component';
     UserComponent,
     NoteComponent,
     CreatedNoteComponent,
-    UpdateNoteComponent
+    UpdateNoteComponent,
+    Error404Component,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

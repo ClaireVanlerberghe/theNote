@@ -9,13 +9,13 @@ import { UserComponent } from './user/user.component';
 import { CreatedNoteComponent } from './created-note/created-note.component';
 
 const routes: Routes = [
-  {path: "/", component: SignUpComponent},
-  {path: "/login", component: LogInComponent},
-  {path:"/home", component: HomeComponent},
-  {path:"/note", component: NoteComponent},
-  {path:"/updatenote", component: UpdateNoteComponent},
-  {path:"/user", component: UserComponent},
-  {path:"/creatednote", component: CreatedNoteComponent},
+  {path: "", component: SignUpComponent},
+  {path: "login", component: LogInComponent},
+  {path:"home", component: HomeComponent},
+  {path:"note", component: NoteComponent},
+  {path:"updatenote", component: UpdateNoteComponent},
+  {path:"user", component: UserComponent},
+  {path:"creatednote", component: CreatedNoteComponent},
 ];
 
 @NgModule({
