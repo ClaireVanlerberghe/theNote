@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
 body{
     background-color: #f4f2f3;
+    margin: 0;
+    font-family: 'Italiana', sans-serif;
+
     .element1{
         position: absolute;
         width: 400px;
+        z-index: -1;
     }
     .element2{
         width: 350px;
         position: absolute;
         right: 400px;
         top: 465px;
+        z-index: -1;
     }
     .element3{
         position: absolute;
         width: 400px;
         right: 0px;
+        z-index: -1;
     }
     .element4{
         position: absolute;
         width: 400px;
         top: 860px;
+        z-index: -1;
 
     }
     .element5{
@@ -26,5 +35,6 @@ body{
         width: 400px;
         top:  1000px;
         right: 0px;
+        z-index: -1;
     }
 }
