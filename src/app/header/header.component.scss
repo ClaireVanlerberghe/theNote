@@ -7,9 +7,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1245px;
+    margin: 18px 23px;
     .headerLogo{
         width: 85px;
-        padding: 10px 25px;
+        padding: 0px 25px;
     }
     .headerMenu{
         padding-right: 40px;
@@ -17,6 +19,7 @@
             color: white;
             text-decoration: none;
             padding: 10px;
+            font-size: 20px;
         }
     }
 }
