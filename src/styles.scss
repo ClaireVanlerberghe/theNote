@@ -4,6 +4,8 @@ body{
     background-color: #f4f2f3;
     margin: 0;
     font-family: 'Italiana', sans-serif;
+    background-size: cover;
+    height: 980px;
 
     .element1{
         position: absolute;
@@ -13,8 +15,8 @@ body{
     .element2{
         width: 350px;
         position: absolute;
-        right: 400px;
-        top: 465px;
+        right: 40vw;
+        top: 25vh;
         z-index: -1;
     }
     .element3{
@@ -25,15 +27,15 @@ body{
     }
     .element4{
         position: absolute;
-        width: 400px;
-        top: 860px;
+        width: 335px;
+        top: 60vh;
         z-index: -1;
 
     }
     .element5{
         position: absolute;
         width: 400px;
-        top:  1000px;
+        top:  50vh;
         right: 0px;
         z-index: -1;
     }
