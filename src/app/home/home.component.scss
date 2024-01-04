@@ -1,0 +1,92 @@
+.homeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 175px;
+    padding-top: 20px;
+    gap: 20px;
+
+    .homeSearch {
+        display: flex;
+        align-items: center;
+
+        input {
+            font-family: 'Italiana', sans-serif;
+            font-size: 20px;
+            border-radius: 20px;
+            background: rgba(195, 194, 194, 0.57);
+            box-shadow: 0px 4px 4px 0px rgba(192, 169, 189, 0.25) inset;
+            width: 265px;
+            height: 50px;
+            background-color: #F4F2F391;
+            padding-left: 20px;
+        }
+
+        img {
+            height: 24px;
+            right: 516px;
+            position: absolute;
+        }
+    }
+
+    .homeFilterButton {
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-family: 'Italiana', sans-serif;
+        font-size: 20px;
+        padding: 12px 35px;
+        background: var(--violet, #C0A9BD);
+        box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .homeSortButton {
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-family: 'Italiana', sans-serif;
+        font-size: 20px;
+        padding: 12px 35px;
+        background: var(--violet, #C0A9BD);
+        box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .homeAddButton {
+        border-radius: 16px;
+        border: none;
+        background: var(--violet, #C0A9BD);
+        box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 0;
+
+        img {
+            padding: 9px 10px 6px 10px;
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 35px;
+
+    .oneCard {
+        border-radius: 30px;
+        background: var(--violet, #C0A9BD);
+        box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 240px;
+        height: 240px;
+        text-decoration: none;
+
+        p {
+            color: white;
+            padding-left: 20px;
+        }
+
+        .cardTitle {
+            font-size: 20px;
+        }
+    }
+}
