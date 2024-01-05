@@ -6,7 +6,7 @@
 
     h1 {
         font-size: 60px;
-        margin-bottom: -32px;
+        margin-bottom: -36px;
         margin-top: 42px;
         z-index: 1;
         display: flex;
@@ -22,19 +22,33 @@
             background: var(--violet, #C0A9BD);
             box-shadow: 0px 4px 13px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             color: white;
-            width: auto;
-            padding: 0 80px;
+            width: 1425px;
+           
 
+            .noteDate{
+                font-size: 20px;
+                padding: 30px 7%;
+            }
             .noteText {
                 display: flex;
-                width: 1300px;
+                width: auto;
                 justify-content: center;
                 text-align: center;
                 font-size: 25px;
+                line-height: 35px;
+                margin: 0;
+                padding: 0 115px;
             }
         }
     }
 
+    .noteButton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 4%;
+
+    }
     button {
         border-radius: 20px;
         background: #C0A9BD;
@@ -43,8 +57,32 @@
         color: white;
         font-family: 'Italiana', sans-serif;
         font-size: 25px;
+        padding: 12px 30px;
+        margin-top: 35px;
+        
     }
-
+    .toggleTags{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .tags{
+            display: flex;
+            flex-direction: row;
+            font-size: 22px;
+            gap: 50px;
+            padding-right: 115px;
+        }
+    }
+    .noteToggle{
+        padding-bottom: 25px;
+        padding-left: 7%;
+    }
+    .noteToggleTitle{
+        font-size: 22px;
+        margin-bottom: 0;
+        margin-top: 55px;
+    }
     // SCSS pour toggle
     input[type=checkbox] {
         height: 0;
@@ -73,7 +111,7 @@
         height: 25px;
         background: #C0A9BD;
         border-radius: 90px;
-        transition: 0.3s;
+        transition: 0.5s;
     }
 
     input:checked+label {
