@@ -1,2 +1,29 @@
 <app-header></app-header>
-<p>created-note works!</p>
+<div class="createBackground">
+    <div class="createContenu">
+        <input class="createTitle" type="text" placeholder="Titre de la note">
+        <textarea class="createText" name="noteText" rows="15" placeholder="Contenu de la note"></textarea>
+    </div>
+    <div class="createOption">
+        <select name="tags" class="createSelectTags">
+            <option value="">Tags</option>
+            <option value="recette">Recette</option>
+            <option value="courses">Course</option>
+            <option value="travail">Travail</option>
+            <option value="voyage">Voyage</option>
+            <option value="projet">Projet</option>
+            <option value="todo">To do list</option>
+            <option value="wishlist">Wishlist</option>
+            <option value="cours">Cours</option>
+        </select>
+        <div class="createPriority">
+            <input class="createPrioritycheckbox" type="checkbox">
+            <p class="createPriorityTitle">Prioriser la note</p>
+        </div>
+
+        <div class="createValid">
+            <a routerLink="/home" class="createCancel">Annuler</a>
+            <button class="createSave">Sauvegarder</button>
+        </div>
+    </div>
+</div>
