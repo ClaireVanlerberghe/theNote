@@ -15,15 +15,17 @@
             <option value="todo">To do list</option>
             <option value="wishlist">Wishlist</option>
             <option value="cours">Cours</option>
+              
         </select>
+             
         <div class="createPriority">
-            <input class="createPrioritycheckbox" type="checkbox">
+            <input class="createPriorityCheckbox" type="checkbox">
             <p class="createPriorityTitle">Prioriser la note</p>
         </div>
 
-        <div class="createValid">
+        <div class="createValidation">
             <a routerLink="/home" class="createCancel">Annuler</a>
-            <button class="createSave">Sauvegarder</button>
+            <a routerLink="/notes/:id"><button class="createSave">Sauvegarder</button></a>
         </div>
     </div>
 </div>
