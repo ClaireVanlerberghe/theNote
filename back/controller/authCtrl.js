@@ -78,6 +78,7 @@ const post_login = async(req, res) => {
     const {email, password} = req.body;
    try {
     const user = await User.login(email, password)
+    console.log("USER", user);
     const token = generateToken(user._id)
     res.cookie('cda', token, {
         httpOnly: true,

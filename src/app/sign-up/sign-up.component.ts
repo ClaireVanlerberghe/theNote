@@ -33,11 +33,13 @@ export class SignUpComponent {
     this.auth.createUser(email, password).pipe(
       switchMap(() => this.auth.loginUser(email, password)),
       tap(() => {
-        this.router.navigate(['/home']);
+        this.router.navigate(['/login']);
       }),
       catchError(error => {
         this.errorMsg = error.message;
+        
         return EMPTY;
+        
       })
     ).subscribe();
   }

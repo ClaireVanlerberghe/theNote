@@ -16,8 +16,9 @@ router.get('/login', authCtrl.get_login)
 router.post('/login', authCtrl.post_login)
 
 //Ici, le reste des routes
-
-
+router.get('/', verifyJWTToken, verifyUser,(req, res) => {
+    res.render('home')
+})
 //Route pour la deconnexion
 router.get("/logout", authCtrl.get_logout)
 
