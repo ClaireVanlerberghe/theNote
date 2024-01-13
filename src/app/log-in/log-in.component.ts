@@ -29,6 +29,8 @@ onLogin() {
 
 const email = this.loginForm.get('email')!.value;
 const password = this.loginForm.get('password')!.value;
+console.log("FRONT", email, password);
+
 this.auth.loginUser(email, password).pipe(
 tap(() => {
 

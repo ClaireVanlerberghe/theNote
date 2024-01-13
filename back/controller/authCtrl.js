@@ -76,6 +76,7 @@ const post_signup = async (req, res) => {
 
 const post_login = async(req, res) => {
     const {email, password} = req.body;
+    console.log("REQBODY", req.body);
    try {
     const user = await User.login(email, password)
     console.log("USER", user);
