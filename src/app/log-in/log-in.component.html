@@ -3,7 +3,7 @@
     <div class="background">
         <form class="loginForm" [formGroup]="loginForm">
            
-            <input type="email" class="email" placeholder="Émail" formControlName="email">
+            <input type="email" class="email" placeholder="Email" formControlName="email">
             <input type="password" class="password" placeholder="Mot de passe" formControlName="password">
             <button  (click)="onLogin()" type="submit" >Je me connecte</button>
             <p class="text-danger" *ngIf="errorMsg">{{ errorMsg }}</p>
